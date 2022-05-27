@@ -2,7 +2,7 @@
 npm install --save path
 npm install express
 npm install morgan// 로그뽑기
-npm install body-parser //post봅기
+npm install body-parser //post뽑기
 
 
 //비동기적을 순차적으로 할떄
