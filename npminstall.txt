@@ -1,0 +1,16 @@
+
+npm install --save path
+npm install express
+npm install morgan// 로그뽑기
+npm install body-parser //post봅기
+
+
+//비동기적을 순차적으로 할떄
+npam install
+npm install fxjs
+
+
+
+
+npm install pm2 -g
+npm install nodemon -g
