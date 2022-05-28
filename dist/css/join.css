@@ -19,9 +19,10 @@
     transition: 0.2s ease-in-out all;
 }
 
-#frm:hover, #frm:focus{
+#frm:hover,
+#frm:focus {
     border: 1px solid rgb(97, 97, 97);
-    
+    border-radius: 7px;
 }
 
 .nametag {
@@ -40,7 +41,7 @@
     letter-spacing: 3px;
     transition: all 0.2s ease-in-out;
 }
-#btnSend:hover{
+#btnSend:hover {
     background-color: rgba(153, 153, 153, 0.483);
     border-radius: 8.5px;
 }
@@ -52,13 +53,13 @@
     border: 1px solid rgb(219, 219, 219);
 
     transition: all 0.2s ease-in-out;
-    
 }
 
-input:focus, input:hover {
+input:focus,
+input:hover {
     border: 1px solid rgb(124, 124, 124);
     outline: 0;
-    border-radius: 7px;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 .title {
@@ -67,6 +68,3 @@ input:focus, input:hover {
 .nametag span {
     margin: 5px 0;
 }
-
-
-  

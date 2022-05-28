@@ -26,7 +26,6 @@ app.use(loogger('tiny'));
 // get요청
 app.get("/", sitemap.index)
 app.get("/join", sitemap.join)
-app.get("/join.css", sitemap.joincss)
 app.get("/login", sitemap.login)
 app.get("/logout", sitemap.logout)
 
