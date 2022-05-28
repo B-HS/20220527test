@@ -1,0 +1,71 @@
+.loginform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#frm {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid rgb(182, 182, 182);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    min-width: 490px;
+    max-width: 500px;
+    transition: 0.2s ease-in-out all;
+}
+
+#frm:hover, #frm:focus{
+    border: 1px solid rgb(97, 97, 97);
+    
+}
+
+.nametag {
+    display: flex;
+    flex-direction: column;
+}
+.nametag span {
+    margin-bottom: 5px;
+}
+
+#btnSend {
+    width: 120px;
+    border: 0;
+    color: rgb(44, 44, 44);
+    cursor: pointer;
+    letter-spacing: 3px;
+    transition: all 0.2s ease-in-out;
+}
+#btnSend:hover{
+    background-color: rgba(153, 153, 153, 0.483);
+    border-radius: 8.5px;
+}
+
+.inputbox input {
+    width: 100%;
+    margin-bottom: 6px;
+    height: 45%;
+    border: 1px solid rgb(219, 219, 219);
+    transition: all 0.2s ease-in-out;
+    
+}
+
+input:focus, input:hover {
+    border: 1px solid rgb(124, 124, 124);
+    outline: 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+.title {
+    margin-bottom: 20px;
+}
+.nametag span {
+    margin: 5px 0;
+}
+
+
+  
