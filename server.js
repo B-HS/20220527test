@@ -40,6 +40,4 @@ app.post("/login", sitemap.loginPost)
 //서버오픈
 app.listen(PORT, ()=>{
     console.log(`http://127.0.0.1:${PORT}/`)
-    console.log(`http://127.0.0.1:${PORT}/login`)
-    console.log(`http://127.0.0.1:${PORT}/join`)
 })

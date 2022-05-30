@@ -107,7 +107,7 @@ const sucess = (id, temp)=>(`
                 <script>
                 window.onload=()=>{setTimeout(() => 
                 {window.location.replace("./")}, 2000);}
-                window.localStorage.setItem("name", ${id})
+                window.localStorage.setItem("name", "${id}")
                 </script>
                 <style>
                 body{
